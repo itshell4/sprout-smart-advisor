@@ -24,9 +24,7 @@ To get a local copy up and running, follow these simple steps.
 You just need a modern web browser like Chrome, Firefox, or Safari.
 
 ### Deployment
-    ```sh
-    https://seasonal-crop-advisor.vercel.app
-    ```
+*  https://seasonal-crop-advisor.vercel.app
 ### Installation & Usage
 
 1.  **Clone the repository:**
