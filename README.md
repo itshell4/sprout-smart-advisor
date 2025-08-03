@@ -38,18 +38,6 @@ You just need a modern web browser like Chrome, Firefox, or Safari.
 3.  **Open `index.html` in your browser:**
     You can do this by double-clicking the `index.html` file in your file explorer.
 
-## 🔌 API Integration
-
-This application is designed to fetch recommendations from your custom-trained model via an API. To connect your model, you need to update the JavaScript file.
-
-1.  Open the `script.js` file.
-2.  Find the following line of code (around line 28):
-    ```javascript
-    const response = await fetch('YOUR_MODEL_API_ENDPOINT_HERE', {
-    ```
-3.  Replace `'YOUR_MODEL_API_ENDPOINT_HERE'` with the actual URL of your deployed model's API endpoint.
-4.  If your API requires an authentication key, you can add it to the `headers` object.
-
 ## 📈 Future Improvements
 
 * **Geolocation API:** Automatically detect the user's location to pre-fill the form.
