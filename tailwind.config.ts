@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					muted: 'hsl(var(--primary-muted))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -62,6 +63,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-growth': 'var(--gradient-growth)',
+				'gradient-seasonal': 'var(--gradient-seasonal)',
+				'gradient-harvest': 'var(--gradient-harvest)'
+			},
+			boxShadow: {
+				'earth': 'var(--shadow-earth)',
+				'growth': 'var(--shadow-growth)',
+				'card': 'var(--shadow-card)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
